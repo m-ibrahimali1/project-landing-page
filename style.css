@@ -103,13 +103,12 @@ a {
 
 .hero2main {
   display: flex;
-  flex-flow: row wrap;
+  flex-flow: row nowrap;
   max-width: 80vw;
-  gap: 64px;
-  margin: 40px auto;
-  padding-bottom: 80px;
+  gap: 105px;
+  margin: 40px auto 24px auto;
+  padding-bottom: 48px;
   justify-content: center;
-  outline: 2px solid red;
 }
 
 .box1,
@@ -118,7 +117,41 @@ a {
 .box4 {
   align-self: center;
   border: 4px solid #3882f6;
-  width: 190px;
-  height: 190px;
+  width: 200px;
+  height: 200px;
   border-radius: 8px;
+  margin-bottom: 16px;
+  overflow: hidden;
+}
+
+.wrapper1,
+.wrapper2,
+.wrapper3,
+.wrapper4 {
+  display: flex;
+  flex-flow: column wrap;
+  text-align: center;
+  width: 220px;
+}
+
+.img1 {
+  padding-right: 28px;
+}
+
+.img2 {
+  padding-right: 172px;
+}
+
+.img3 {
+  padding-right: 176px;
+}
+
+.img4 {
+  padding-right: 20px;
+}
+
+.hero3main {
+  width: 100vw;
+  height: 300px;
+  background-color: #e5e7eb;
 }
