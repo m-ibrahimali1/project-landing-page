@@ -8,5 +8,36 @@
 body {
   width: 100vw;
   height: 100vh;
-  background-color: antiquewhite;
+  background-color: #ffffff;
+}
+
+div.header {
+  display: flex;
+  justify-content: flex-end;
+  background-color: #1f2937;
+  padding: 0 8px;
+}
+
+.logo {
+  width: 150px;
+  height: auto;
+  margin-right: auto;
+}
+
+.links {
+  display: flex;
+  list-style-type: none;
+  align-items: center;
+  gap: 16px;
+  padding: 16px;
+}
+
+a {
+  text-decoration: none;
+  color: #f9faf8;
+}
+
+.header {
+  font-size: 18px;
+  font-weight: 900;
 }
