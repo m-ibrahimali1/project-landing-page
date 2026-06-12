@@ -2,7 +2,9 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: Roboto, Verdana, Geneva, Tahoma, sans-serif;
+  font-family:
+    "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif, Verdana,
+    Geneva, Tahoma, sans-serif;
 }
 
 body {
@@ -22,14 +24,16 @@ div.header {
   width: 225px;
   height: auto;
   margin-right: auto;
+  margin-left: 108px;
 }
 
 .links {
   display: flex;
   list-style-type: none;
   align-items: center;
-  gap: 16px;
+  gap: 24px;
   padding: 16px;
+  margin-right: 108px;
 }
 
 a {
@@ -44,6 +48,48 @@ a {
 
 .hero {
   width: 100vw;
-  height: 300px;
+  height: 400px;
   background-color: #1f2937;
+  padding: 40px;
+  display: flex;
+  gap: 24px;
+}
+
+.heroleft {
+  width: 50vw;
+  color: #e5e7eb;
+  text-align: left;
+}
+
+.heroheading {
+  text-align: center;
+  margin: 20px 0;
+  font-size: 48px;
+}
+
+.herotext {
+  margin: 20px 20px 20px 84px;
+  font-size: 18px;
+}
+
+.heroright {
+  width: 50vw;
+  height: auto;
+}
+
+.odin-picture {
+  width: 40vw;
+  height: auto;
+  border-radius: 16px;
+  box-shadow: 4px 2px 2px #233142;
+}
+
+.button {
+  background-color: #31588d;
+  font-size: 18px;
+  margin-left: 80px;
+  margin-top: 8px;
+  padding: 8px;
+  color: #e5e7eb;
+  border-radius: 20px;
 }
