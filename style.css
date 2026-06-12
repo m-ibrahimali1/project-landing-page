@@ -19,7 +19,7 @@ div.header {
 }
 
 .logo {
-  width: 150px;
+  width: 225px;
   height: auto;
   margin-right: auto;
 }
@@ -40,4 +40,10 @@ a {
 .header {
   font-size: 18px;
   font-weight: 900;
+}
+
+.hero {
+  width: 100vw;
+  height: 300px;
+  background-color: #1f2937;
 }
