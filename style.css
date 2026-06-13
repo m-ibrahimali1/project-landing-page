@@ -55,6 +55,17 @@ a {
   gap: 24px;
 }
 
+.footer {
+  width: 100vw;
+  height: 50px;
+  background-color: #1f2937;
+  padding: 20px;
+  font-size: 18px;
+  color: #f9faf8;
+  text-align: center;
+  vertical-align: middle;
+}
+
 .heroleft {
   width: 50vw;
   color: #e5e7eb;
@@ -154,4 +165,34 @@ a {
   width: 100vw;
   height: 300px;
   background-color: #e5e7eb;
+}
+
+.quote {
+  width: 75vw;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.quote1 {
+  padding-top: 120px;
+  text-align: center;
+  font-size: 36px;
+  color: #1f2937;
+  font-weight: 300;
+}
+
+.by {
+  font-weight: 600;
+  text-align: end;
+  margin-top: 32px;
+  width: 66vw;
+  font-size: 28px;
+}
+
+.hero4main {
+  width: 80vw;
+  height: 120px;
+  background-color: #3882f6;
+  margin: 48px auto 48px auto;
+  border-radius: 16px;
 }
