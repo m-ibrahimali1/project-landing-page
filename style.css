@@ -85,12 +85,12 @@ a {
 
 .heroright {
   width: 50vw;
+  overflow: hidden;
   height: auto;
 }
 
 .odin-picture {
   width: 40vw;
-  max-width: 100%;
   height: auto;
   border-radius: 16px;
   box-shadow: 4px 2px 2px #233142;
